@@ -1,0 +1,19 @@
+# Presentation Settings
+
+sitename: Seven
+tagline: Handpicked Articles for Front Ender.
+desc: Handpicked Articles for Front Ender.
+url: http://seven.studiomohawk.com
+
+# TOOL Settings
+ga: UA-61203-19
+
+# System Settings
+
+pygments:    true
+markdown:    kramdown
+permalink:   pretty
+kramdown:
+  auto_ids: false
+exclude: LICENSE, README.markdown, Rakefile, .rbenv-version
+include: _includes
