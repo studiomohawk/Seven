@@ -1,7 +1,7 @@
-## About Public Draft
+## About Seven
 
-Public Draft is a blog to jot down stuff I've researched.  
-I've made Jekyll Initial Package called JI and this is kinda example for it.
+Seven is handpiked articles for front end developers.  
+Every post will have 7 article on particular topic.
 
 ## About JI:
 

@@ -12,6 +12,14 @@ title: "#{args.title}"
 date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
 category:
 ---
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
 EOS
     end
   puts "Now open #{path} in an editor."
@@ -81,5 +89,5 @@ end
 
 desc "Deploy Amazon s3 Using s3Sync"
 task :deploy do
-  system('s3sync -rpv _site/ publicdraft.studiomohawk.com:')
+  system('s3sync -rpv _site/ seven.studiomohawk.com:')
 end

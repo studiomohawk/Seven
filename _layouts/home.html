@@ -2,8 +2,9 @@
 <div id="page" class="page page-{{ page.layout }}">
 {% include module/header.html %}
 
-<div role="main" class="body">
-<div class="unit">
+<div id="js-list" role="main" class="body">
+{% include module/search.html %}
+<div class="unit article">
 	<div class="unit-inner">
 	{{ content }}
 	</div><!-- unit-inner -->

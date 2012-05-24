@@ -5,7 +5,7 @@
 
 // background
 html {
-	background: url('@{t-brightsquares}') repeat 0 0;
+	background: url('@{n-100-70-5}') repeat 0 0 @orange;
 }
 
 // header
@@ -22,53 +22,101 @@ html {
 	margin: 0;
 }
 
-// Article
+// post-count
 
+.post-count {
+	#font > #family > .opensans;
+}
+
+// navigation
+
+.navigation {
+	background: url('@{t-classyfabric}') repeat 0 0 @base02;
+	color: @white;
+	#font > #family > .opensans;
+	padding-top: 1.5rem;
+	.search {
+		border: 1px solid @base02;
+		#font > #family > .opensans;
+		margin-bottom: 0.9rem;
+		padding: 4px;
+		background-color: @white;
+		-webkit-border-radius: 3px;
+		        border-radius: 3px;
+		-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+		-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+		width: 100%;
+	}
+	.list-filter {
+		margin-bottom: 1.35rem;
+		text-transform: uppercase;
+	}
+	.list-filter .list-hd {
+		margin-right: 12px;
+		padding: 5px 8px 5px 0;
+	}
+	.list-filter .control {
+		background-color: @base02;
+		border: 1px solid @base01;
+		cursor: pointer;
+		margin-right: 12px;
+		padding: 4px 8px;
+		-webkit-border-radius: 3px;
+		        border-radius: 3px;
+		-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	}
+	.list-filter .control:hover {
+		border: 1px solid lighten(@base01, 10%);
+		color: darken(@white, 15%);
+
+		-webkit-transition: border linear 0.2s, color linear 0.2s;
+		   -moz-transition: border linear 0.2s, color linear 0.2s;
+		    -ms-transition: border linear 0.2s, color linear 0.2s;
+		     -o-transition: border linear 0.2s, color linear 0.2s;
+		        transition: border linear 0.2s, color linear 0.2s;
+	}
+} // navigation
+
+// Article
+.the-article:first-child { margin-top: 1.5rem; }
 .the-article {
 	.hd .group {
-		padding-bottom: 22px;
-		border-bottom: 1px solid @subtle;
 		margin-bottom: 1.5rem;
 	}
-	.date-pub {
-		line-height: 48px;
-		float: left;
-		width: 70px;
-		margin: 0 20px 0 0;
-		text-indent: 0;
+	.meta {
+		border-bottom: 1px solid @base02;
+		height: 12px;
+		p {
+			margin: 0 10px;
+			padding: 0 10px;
+			float: right;
+			background: url('@{n-100-70-5}') repeat 0 0 @orange;
+			font-weight: 800;
+			text-transform: uppercase;
+			#font > #family > .opensans;
+		}
+		.category {
+			margin-left: 5px;
+			padding-left: 10px;
+			border-left: 1px solid @base02;
+		}
 	}
 	.post-title {
 		margin: 0;
-		padding: 0 0 0 90px;
+		padding: 0;
 	}
 	.content {
+		#font > #family > .gentium;
 		ul, ol {
-			padding: 0 0 0 1em;
+			list-style: none;
+			padding: 0;
 		}
-		ul { list-style: square; }
-		blockquote {
-			border-left: 1px solid @subtle;
-			padding-left: 1em;
-			margin: 0 0 1.5rem 0;
-			p {
-				margin-left: 0;
-				margin-right: 0;
+		li {
+			border-bottom: 1px dotted @base02;
+			a {
+				display: block;
+				padding: 12px 10px 11px 0
 			}
-		}
-		img {
-			display: block;
-			max-width: 100%;
-			margin-bottom: 1.5rem;
-		}
-		.left {
-			margin-right: 1em;
-		}
-		.right {
-			margin-left: 1em;
-		}
-		.huge {
-			clear: both;
-			position: relative;
 		}
 	}
 	.ft .group {
@@ -79,8 +127,12 @@ html {
 } // .the-article
 // Footer
 .the-footer {
-	background: url('@{t-brightsquares}') repeat 0 0 @base0;
-	color: @base03;
+	background: url('@{t-classyfabric}') repeat 0 0 @base02;
+	color: @white;
+	margin-bottom: 1.5rem;
+	#font > #family > .gentium;
+	h4 { #font > #family > .opensans; }
+	.btn { margin-bottom: 14px; }
 }
 .the-footer .unit-inner {
 	padding: 1.5rem;
@@ -104,11 +156,7 @@ html {
 
 // Page Specific
 .page-home {
-	.the-article .hd .group {
-		border-bottom: 0 none;
-		padding-bottom: 0;
-		margin-bottom: 1.5rem;
-	}
+
 } // .page-home
 
 // 480px
@@ -128,10 +176,6 @@ html {
 	.unit-inner {
 		.layout-center();
 		width: @10cols;
-	}
-	.the-article .content {
-		.layout-center();
-		width: @8cols;
 	}
 	.the-article .mod-social {
 		.layout-center();

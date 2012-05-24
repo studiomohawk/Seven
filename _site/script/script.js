@@ -59,3 +59,32 @@
 		});
 	}
 })(this);
+
+// list.js
+
+(function() {
+
+	var options = {
+		valueNames: [ 'category', 'post-title' ]
+	};
+
+	var featureList = new List('js-list', options);
+	$('#js-filter').on('click', '.control', function(e){
+		var self = this;
+		var $self = $(this);
+		var filter = $self.data('filter');
+		if ( filter != 'none' ) {
+			featureList.filter(function(item) {
+				if (item.values().category == filter) {
+					return true;
+				} else {
+					return false;
+				}
+			});
+		} else {
+			featureList.filter();
+		}
+	});
+
+// END
+})();

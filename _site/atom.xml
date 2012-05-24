@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<link rel="hub" href="https://pubsubhubbub.appspot.com"/>
-	<title>Seven | Handpicked Articles for Front Ender.</title>
+	<title>Seven | Handpicked lists for Front Ender.</title>
 	<link href="http://seven.studiomohawk.com/atom.xml" rel="self"/>
 	<link href="http://seven.studiomohawk.com"/>
-	<updated>2012-05-12T01:40:43+09:00</updated>
+	<updated>2012-05-25T00:25:02+09:00</updated>
 	<id>http://css.studiomohawk.com/</id>
 	<author>
 		<name>Yuya Saito</name>
@@ -12,275 +12,20 @@
 	</author>
 	
 		<entry>
-			<title>Sublime Text 2</title>
-			<link href="http://seven.studiomohawk.com/research/2012/04/14/01-02-sublimetext2/"/>
+			<title>Wireframe</title>
+			<link href="http://seven.studiomohawk.com/design/2012/05/20/wireframe/"/>
 			<updated></updated>
-			<id>http://seven.studiomohawk.com/research/2012/04/14/01-02-sublimetext2</id>
+			<id>http://seven.studiomohawk.com/design/2012/05/20/wireframe</id>
 			<content type="html">
-				&lt;h2&gt;インストール&lt;/h2&gt;
-
-&lt;p&gt;まずは&lt;strong&gt;インストール&lt;/strong&gt;から。&lt;br /&gt;
-Sublime Text 2はかなりアクティブに更新されているのでdev buildをインストールして最新機能を使えるようにしておこう。&lt;br /&gt;
-&lt;a href=&quot;http://www.sublimetext.com/dev&quot;&gt;Sublime Text 2 - Dev Builds&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2&gt;プラグインをインストール&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://wbond.net/sublime_packages/package_control/installation&quot;&gt;Sublime Package Control&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Sublime Text 2をインストールし終えたらまずはじめにやっておくべきことがこのSublime Package Controlをイントールすること。&lt;/p&gt;
-
-&lt;p&gt;Sublime Text 2をスタートしてControl + `(View → Show Console)としてConsoleを立ち上げて&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;py&quot;&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;urllib2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;Package Control.sublime-package&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ipp&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sublime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installed_packages_path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;makedirs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ipp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ipp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;urllib2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;install_opener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urllib2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;build_opener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urllib2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ProxyHandler&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()));&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;os&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ipp&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;wb&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urllib2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;urlopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;http://sublime.wbond.net/&amp;#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39; &amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;%20&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;read&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;Please restart Sublime Text to finish installation&amp;#39;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;この文字列をコピー&amp;amp;ペーストしてSublime Text2を再起動すれば完了。&lt;br /&gt;
-Package ControlはControl + Shift + pでCommand Palleteを立ち上げて、installをタイプしてみよう。&lt;br /&gt;
-するとPackage Control: Install Packageのオプションがハイライトされるのでエンター。&lt;br /&gt;
-探しているプラグイン名をタイプしてエンターすればプラグインのインストールが開始される。&lt;/p&gt;
-
-&lt;p&gt;Command PalleteからでもPackage Controlで管理されているプラグインを一覧できるが、若干読みづらいと思うのでウェブ上で登録されているプラグインをみることができる&lt;a href=&quot;http://wbond.net/sublime_packages/community&quot;&gt;こちら&lt;/a&gt;を参考に。現時点で288のプラグインが登録されている。&lt;/p&gt;
-
-&lt;h2&gt;ショートカット&lt;/h2&gt;
-
-&lt;h3&gt;覚えておきたいショートカット&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Control + Shift + p / Command Palleteを立ち上げる  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Command PalleteからSublime Text 2の様々な機能やスニペットを検索できます。Package Controlもここからアクセスできる。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Command + p / ファイルファインダを立ち上げる&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;現在開いているファイルやフォルダ、プロジェクト内をキーワードでファイルを検索、開く。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Command + Control + G / Multi-Select&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;文字列を選択してからこのショートカットを入力するとファイル内にある文字列から選択した文字列と同じ文字列が選択される。この状態で編集するとすべての文字列が置き換えられる。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Command + Shift + a / Expand Selection To Tag&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;カーソルのある部分からHTMLのタグ範囲を選択するショートカット。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Command + Option + 1&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;単一ウィンドウに切り替え。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Command + Option + Shift + 2&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;ウィンドウを縦に分割。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Command + /&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;コメントをトグルする&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Option + Control + f&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/SublimeText/Tag&quot;&gt;Tag&lt;/a&gt; プラグイン導入済みの場合。&lt;br /&gt;
-選択範囲でHTMLタグをフォーマットする。&lt;/p&gt;
-
-&lt;h2&gt;設定&lt;/h2&gt;
-
-&lt;p&gt;Sublime Text 2ではEmacsやVimのように設定ファイルを編集することで設定を変更できる。Preferences → Settings - Defaultを開いて、変更したい部分をコピーしてから、Preferences → Settings - Userにペーストして設定を変更しよう。  &lt;/p&gt;
-
-&lt;p&gt;同様にキーバインドもPreferences → Key Bindings - Defaultを開いて、変更したい部分をコピーして、Preferences → Key Bindings - Userにペーストして設定を変更できる。&lt;/p&gt;
-
-&lt;p&gt;どちらの設定ファイルもJSON形式で書かれているので	編集はそれほど難しくない。&lt;/p&gt;
-
-&lt;h2&gt;おすすめプラグイン&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://bitbucket.org/sublimator/sublime-2-zencoding&quot;&gt;Zen Coding&lt;/a&gt;  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;HTML、CSSをより早く記述するのに便利なZen Coding。Package Controlから直接はインストールできなかったので、Package Control: add repositoryからhttps://bitbucket.org/sublimator/sublime-2-zencodingを追加してインストールした。  &lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;div.text&lt;/code&gt;のようないつもの記述をtabでExpandしてくれる。他のコマンドについては~/Library/Application\ Support/Sublime\ Text\ 2/Packages/ZenCodingのkeymapを確認できる。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/wbond/sublime_prefixr&quot;&gt;Sublime Prefixr&lt;/a&gt;  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;CSS3のブラウザベンダープリフィックスを補完してくれるウェブサービス&lt;a href=&quot;http://prefixr.com/&quot;&gt;Nettuts+ Prefixr&lt;/a&gt;を直接利用できる。Package Controlからインストール可能。&lt;/p&gt;
-
-&lt;p&gt;Command + Control + x で実行。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/SublimeText/Tag&quot;&gt;Tag&lt;/a&gt;  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;HTMLに関する様々な機能を拡張するプラグイン。&lt;br /&gt;
-スラッシュで自動的にタグを閉じる、タグのインデントなどを追加。
-インストールはPackage Controlから。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/facelessuser/BracketHighlighter&quot;&gt;BracketHighlighter&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code&gt;(),[],&amp;lt;&amp;gt;,{}&lt;/code&gt;、HTMLタグを強調表示。(HTMLタグはややバグっぽい挙動もある様子)。&lt;br /&gt;
-インストールはPackage Controlから。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/kemayo/sublime-text-2-git&quot;&gt;git&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Command Palleteから直接gitコマンドを利用できるようにするプラグイン。&lt;br /&gt;
-インストールはPackage Controlから。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/SublimeText/SideBarGit&quot;&gt;SideBarGit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sublime Text 2のサイドバーからGitコマンドを実行できるようにするプラグイン。&lt;br /&gt;
-インストールはPackage Controlから。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/titoBouzout/SideBarEnhancements&quot;&gt;SideBarEnhancements&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sidebarに削除、実行などの機能を追加するプラグイン。&lt;br /&gt;
-Packageまわりは少しバグがあるようで、ほぼ動作しない様子だがかなり便利。&lt;br /&gt;
-こちらもPackage Controlから。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/danro/LESS-sublime&quot;&gt;LESS&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;LESSファイルのシンタックスハイライタ。&lt;br /&gt;
-LESSを保存と同時にコンパイルするプラグインもあるが、私は別プロセスで処理しているのでハイライタだけ利用。&lt;br /&gt;
-Package Controlから。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/bgreenlee/sublime-github&quot;&gt;Sublime GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;少々ややこしいネーミングながらgithubのgistをSublime Text 2から利用できるようになる。&lt;br /&gt;
-Command Palleteからgistの表示、gistへの投稿などを行うことができる。&lt;br /&gt;
-Package Controlから。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/netpro2k/SublimeBlockCursor&quot;&gt;SublimeBlockCursor&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Vimモードに近しいVintageモードに変更するとCommand Modeの際にカーソルの位置が分かりづらくなるのでこのプラグインで解決。&lt;br /&gt;
-私の環境ではPackage Controlからはインストールできなかったので、直接PackageへCloneした。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/spadgos/sublime-AsAbove&quot;&gt;As Above&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;カーソルの真上にいる文字をコピーするプラグイン。&lt;br /&gt;
-Control + Shift + ‘のショートカットキーで1文字づつコピーする。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/SublimeText/Open-Include&quot;&gt;Open-Include&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;ファイルパスをOption + dで開くプラグイン。&lt;br /&gt;
-画像、動画などをデフォルトアプリで開いてくれる。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/SublimeText/TrailingSpaces&quot;&gt;TrailingSpaces&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;行末の空白文字を強調表示、削除するプラグイン。&lt;br /&gt;
-削除はSublime Text 2の設定から&lt;br /&gt;
-    “trim_trailing_white_space_on_save”: true,
-と変更すれば保存と同時に削除される。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/uipoet/sublime-jshint&quot;&gt;sublime-jshint&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;JSHistを実行するプラグイン。動作にはnode 0.6系が必要。&lt;br /&gt;
-Control + jで実行。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://andrewbrookins.com/tech/make-sublime-text-2-more-like-vim-wrap-code-goto-last-edit-and-more/&quot;&gt;Make Sublime Text 2 More like Vim: Wrap Code, Go To Last Edit, and More&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Vimで使えるちょっと便利なコマンドをエミュレートするプラグイン達。&lt;br /&gt;
-好きなものを選んで利用中。&lt;br /&gt;
-Package Controlからはインストールできないので、Packagesディレクトリに直接cloneしました。&lt;/p&gt;
-
-&lt;h2&gt;Tips&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Vim風キーバインドに変換する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Command PalleteにてPackage Control: Enable Packageを選んでエンターしてVintageモードを有効にする。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;TextMateのカラースキームを利用する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sublime Text 2ではTextMateの.tmbundleファイルを利用することができます。またカラースキームファイルも利用可能。&lt;br /&gt;
-packageフォルダ直下に.tmbundleをコピーしてSublime Text 2を再起動すればメニューからカラースキームを選択できる。&lt;br /&gt;
-私が現在使っているのは&lt;a href=&quot;https://github.com/chriskempson/textmate-tomorrow-theme&quot;&gt;Tomorrow Theme&lt;/a&gt;のNight Eighties。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;HTMLファイル内をIDやClass名で移動する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Command + Pでファインダを立ち上げ、&lt;code&gt;#&lt;/code&gt;を入力するとHTMLからID名、Class名などを検索できる。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;行番号に移動する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Control + gでも移動できますが、Command + pから&lt;code&gt;:&lt;/code&gt;を入力し行番号をタイプしても移動できる。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;TerminalからSublimeを起動する&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin
-にあるsublをbinなどにsymlinkすればOK。&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;sudo ln -s &lt;span class=&quot;s2&quot;&gt;&amp;quot;/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl&amp;quot;&lt;/span&gt; /bin/subl
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sublime Text 2の設定の同期&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sublime Text 2の設定は&lt;br /&gt;
-&lt;code&gt;~/Library/Application Support/Sublime Text 2/&lt;/code&gt;&lt;br /&gt;
-に保存されているので中にあるディレクトリをDropboxに移動しsymlinkすればOK。&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; ~/Library/Application Support/Sublime Text 2/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ディレクトリに移動して
-Dropboxに作成した/appdata/sublime/に元々あったディレクトリを移動。&lt;/p&gt;
-
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;sh&quot;&gt;ln -s ~/Dropbox/appdata/sublime/Installed&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;Packages ./Installed&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;Packages
-ln -s ~/Dropbox/appdata/sublime/Packages ./Packages
-ln -s ~/Dropbox/appdata/sublime/Pristine&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;Packages ./Pristine&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;Packages
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;以上でDropboxに置いた設定ファイル群から&lt;code&gt;~/Library/Application Support/Sublime Text 2/&lt;/code&gt;にsymlinkできる。&lt;br /&gt;
-Sublime Textは閉じたままで作業しよう。&lt;/p&gt;
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://52weeksofux.com/post/866406780/wireframing-is-not-a-religion&quot;&gt;Wireframing is not a religion via 52 Weeks of UX&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxmovement.com/wireframes/how-to-get-clients-to-approve-your-wireframes-every-time/&quot;&gt;How to Get Clients to Approve Your Wireframes Every Time via UX Movement&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxmag.com/articles/shades-of-grey-wireframes-as-thinking-device&quot;&gt;Shades of Grey: Wireframes as Thinking Device via UX Magazine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://leehardingonline.co.uk/2010/06/the-value-of-wireframing/&quot;&gt;The Value of Wireframing via Lee Harding Web Design in Widnes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://boagworld.com/design/wireframing-for-responsive-design/&quot;&gt;Wireframing for responsive design via Boagworld&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://userpathways.com/2008/06/the-what-when-and-why-of-wireframes/&quot;&gt;The what, when and why of wireframes via User Pathways&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://speckyboy.com/2011/05/29/20-effective-examples-of-web-and-mobile-wireframe-sketches/&quot;&gt;20 Effective Examples of Web and Mobile Wireframe Sketches&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -293,99 +38,358 @@ Sublime Textは閉じたままで作業しよう。&lt;/p&gt;
 		</entry>
 	
 		<entry>
-			<title>Build Script using Jake</title>
-			<link href="http://seven.studiomohawk.com/research/2012/04/07/20-41-jake/"/>
+			<title>Mobile First</title>
+			<link href="http://seven.studiomohawk.com/rwd/2012/05/20/mobile-first/"/>
 			<updated></updated>
-			<id>http://seven.studiomohawk.com/research/2012/04/07/20-41-jake</id>
+			<id>http://seven.studiomohawk.com/rwd/2012/05/20/mobile-first</id>
 			<content type="html">
-				&lt;h2&gt;パッケージ&lt;/h2&gt;
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.lukew.com/ff/entry.asp?933&quot;&gt;Mobile First via LukeW&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.abookapart.com/products/mobile-first&quot;&gt;Mobile First(Book) via A Book Apart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.forbes.com/sites/anthonykosner/2012/01/30/the-qofc-interview-luke-wroblewski-author-of-mobile-first/&quot;&gt;The QoC Interview: Luke Wroblewski, Author of “Mobile First” via Forbes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.easy-designs.net/archives/2011/10/12/from-mobile-friendly-to-mobile-first/&quot;&gt;From “Mobile Friendly” to “Mobile First” via The Easy Designs Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.cloudfour.com/where-are-the-mobile-first-responsive-web-designs/&quot;&gt;Where are the Mobile First Responsive Web Designs? via Cloud Four Blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.html5rocks.com/en/mobile/responsivedesign/&quot;&gt;Creating a Mobile-First Responsive Web Design via HTML5 Rocks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bradfrostweb.com/blog/web/mobile-first-responsive-web-design/&quot;&gt;Mobile-First Responsive Web Design via Brad Frost Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3&gt;LESS&lt;/h3&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>jQuery Plugins / How to</title>
+			<link href="http://seven.studiomohawk.com/javascript/2012/05/20/jquery-plugins-how-to/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/javascript/2012/05/20/jquery-plugins-how-to</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tutsplus.com/lesson/head-first-into-plugin-development/&quot;&gt;30 Days to Learn jQuery - Head First Into Plugin Development via Tuts+ Premium Course&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2011/10/11/essential-jquery-plugin-patterns/&quot;&gt;Essential jQuery Plugin Patterns via Smashing Coding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://fuelyourcoding.com/jquery-plugin-design-patterns-part-i/&quot;&gt;jQuery Plugin Design Patterns: Part I via Fuel Your Coding&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stefangabos.ro/jquery/jquery-plugin-boilerplate-oop/&quot;&gt;jQuery Plugin Boilerplate&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://benalman.com/talks/jquery-pluginization.html&quot;&gt;jQuery Pluginization&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.websanova.com/tutorials/jquery/10-coding-tips-to-write-superior-jquery-plugins&quot;&gt;10 Coding Tips to Write Superior jQuery Plugins via Websanova&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascriptplayground.com/blog/2012/04/a-jquery-plugin-with-grunt-qunit&quot;&gt;A jQuery Plugin with Grunt &amp;amp; QUnit via The JavaScript Playground&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/akoenig/laessig&quot;&gt;akoenig/laessig&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>Performance / Basics</title>
+			<link href="http://seven.studiomohawk.com/performance/2012/05/20/performance-basics/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/performance/2012/05/20/performance-basics</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/docs/best-practices/rules_intro&quot;&gt;Web Performance Best Practices - Make the Web Faster via Google Developers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://developer.yahoo.com/performance/rules.html&quot;&gt;Best Practices for Speeding Up Your Web Site via Yahoo! Developer Network&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stevesouders.com/hpws/rules.php&quot;&gt;High Performance Web Sites via stevesouders.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://static.trygve-lie.com/doc/browser_performance/#slide1&quot;&gt;Browser Performance via @trygve_lie&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.jphpsf.com/2012/04/28/front-end-performance-case-study-github/&quot;&gt;Front End Performance Case Study: GitHub via JP’s blog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://calendar.perfplanet.com/2011/&quot;&gt;Performance Calendar&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.perfplanet.com/&quot;&gt;Planet Performance&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;.less&lt;/code&gt;ファイルの保存時にLESSをCSSに変換。&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;laessig observe /the/path/to/your/file.less&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>Design / In-browser Design</title>
+			<link href="http://seven.studiomohawk.com/design/2012/05/12/design-in-browser-design/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/design/2012/05/12/design-in-browser-design</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://shapingthepage.com/journal/do-we-really-need-a-new-web-design-app&quot;&gt;Do We Really Need a New Web Design App?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.stuffandnonsense.co.uk/blog/about/walls_come_tumbling_down_presentation_slides_and_transcript/&quot;&gt;Walls Come Tumbling Down presentation slides and transcript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://24ways.org/2009/make-your-mockup-in-markup&quot;&gt;Make Your Mockup in Markup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://37signals.com/svn/posts/1061-why-we-skip-photoshop&quot;&gt;Why we skip Photoshop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.quora.com/Joel-Lewenstein/Joels-Posts/Life-Without-Photoshop&quot;&gt;Life Without Photoshop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.hicksdesign.co.uk/journal/graphics-editor-or-text-editor&quot;&gt;Graphics Editor or Text Editor?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://inspiredm.com/learn-to-use-your-browser-in-web-design/&quot;&gt;Learn to Use Your Browser in Web Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3&gt;CSS圧縮&lt;/h3&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>Twitter / Javascript</title>
+			<link href="http://seven.studiomohawk.com/javascript/2012/05/12/twitter-javascript/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/javascript/2012/05/12/twitter-javascript</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/addyosmani&quot;&gt;Addy Osmani (addyosmani)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/slicknet&quot;&gt;Nicholas C. Zakas (slicknet)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/rworth&quot;&gt;Richard D. Worth (rworth)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/scottjehl&quot;&gt;Scott Jehl (scottjehl)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/jeresig&quot;&gt;John Resig (jeresig)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/JavaScriptDaily&quot;&gt;JavaScript Daily (javascriptdaily)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/github_js&quot;&gt;GitHub JavaScript (github_js)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/ded/sqwish&quot;&gt;ded/sqwish&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>JavaScript / Books</title>
+			<link href="http://seven.studiomohawk.com/javascript/2012/05/12/javascript-books/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/javascript/2012/05/12/javascript-books</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.co.jp/dp/4873113911&quot;&gt;JavaScript: The Good Parts by Douglas Crockford&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.amazon.co.jp/dp/4873114888&quot;&gt;JavaScript Patterns by Stoyan Stefanov&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://eloquentjavascript.net/&quot;&gt;Eloquent JavaScript: A Modern Introduction to Programming by Marijn Haverbeke&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920025245.do&quot;&gt;Maintainable JavaScript by Nicholas C. Zakas&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.javascriptenlightenment.com/&quot;&gt;JavaScript Enlightenment by Cody Lindley&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/&quot;&gt;Learning JavaScript Design Patterns by Addy Osmani&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://leanpub.com/asyncjs&quot;&gt;Async JavaScript by Trevor Burnham&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;sqwish styles.css&lt;/code&gt;  &lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;sqwish styles.css --strict&lt;/code&gt; / 重複するセレクタをマージ&lt;/li&gt;
-&lt;/ul&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>Documentation / Styleguide</title>
+			<link href="http://seven.studiomohawk.com/frontend/2012/05/12/documentation-styleguide/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/frontend/2012/05/12/documentation-styleguide</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://24ways.org/2011/front-end-style-guides&quot;&gt;Front-end Style Guides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/hughsk/kss-node&quot;&gt;hughsk/kss-node&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/kneath/kss&quot;&gt;kneath/kss&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jacobrask/styledocco&quot;&gt;jacobrask/styledocco&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lukebrooker/pattern-response&quot;&gt;lukebrooker/pattern-response&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pea.rs/&quot;&gt;Pears&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/adactio/Pattern-Primer&quot;&gt;adactio/Pattern-Primer&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3&gt;CSS結合&lt;/h3&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>Mailmagazine / For Web Devs</title>
+			<link href="http://seven.studiomohawk.com/misc/2012/05/12/mailmagazine/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/misc/2012/05/12/mailmagazine</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://javascriptweekly.com/&quot;&gt;JavaScript Weekly: A Free, Weekly JavaScript Email Newsletter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://web-design-weekly.com/&quot;&gt;Web Design Weekly&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://css-weekly.com/&quot;&gt;CSS Weekly&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://html5weekly.com/&quot;&gt;HTML5 Weekly: A Free, Weekly HTML5 and Browser Tech Email Newsletter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/&quot;&gt;Nettuts+&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.smashingmagazine.com/the-smashing-newsletter/&quot;&gt;The Smashing Email Newsletter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://newsletter.studiomohawk.com/&quot;&gt;CSS Radar Newsletter - Weekly Newsletter For Front End Developers&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/cloudhead/less.js&quot;&gt;cloudhead/less.js&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>Mac App / For Front End Developers</title>
+			<link href="http://seven.studiomohawk.com/misc/2012/05/12/mac-app-front-end-devs/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/misc/2012/05/12/mac-app-front-end-devs</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.shpakovski.com/codebox/&quot;&gt;CodeBox — Code Snippet Manager for Mac OS X&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://macrabbit.com/layercake/&quot;&gt;MacRabbit - Layer Cake - Magic with PSDs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://xscopeapp.com/&quot;&gt;xScope&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://procssorapp.com/&quot;&gt;ProCSSor - CSS Formatter &amp;amp; Compressor for Mac OS X&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://livereload.com/&quot;&gt;LiveReload&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://giantcomet.com/hues?ref=appstore&quot;&gt;Hues - Mac OS X Color Picker App&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;master.less&lt;/code&gt;などに&lt;code&gt;@import&lt;/code&gt;で全CSSファイルを呼び出す。  &lt;/li&gt;
-  &lt;li&gt;LESSのコンパイルで結合。&lt;/li&gt;
-&lt;/ul&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>Mobile Web / Best Practices</title>
+			<link href="http://seven.studiomohawk.com/mobile/2012/05/12/mobile-web-best-practices/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/mobile/2012/05/12/mobile-web-best-practices</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mobilewebbestpractices.com/resources/&quot;&gt;Mobile Web Best Practices&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.the-cma.org/about/blog/designing-for-mobile&quot;&gt;Designing For Mobile - Best Practices for Superior User Experiences&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ghostinthepixel.com/?p=644&quot;&gt;Mobile UX Primer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.netmagazine.com/features/10-principles-mobile-interface-design&quot;&gt;The 10 principles of mobile interface design&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxdesign.smashingmagazine.com/2011/10/06/not-your-parents-mobile-phone-ux-design-guidelines-smartphones/&quot;&gt;Not Your Parent’s Mobile Phone: UX Design Guidelines For Smartphones&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://uxmatters.com/mt/archives/2011/01/designing-for-the-mobile-web-special-considerations.php&quot;&gt;Designing for the Mobile Web: Special Considerations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://smallsurfaces.com/2012/04/7-rules-for-great-mobile-ux/&quot;&gt;7 rules for great mobile UX&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3&gt;CSS シンタックスチェック&lt;/h3&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>JavaScript / Backbone.js: Basics</title>
+			<link href="http://seven.studiomohawk.com/javascript/2012/05/12/javascript-backbone.js/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/javascript/2012/05/12/javascript-backbone.js</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://documentcloud.github.com/backbone/&quot;&gt;Backbone.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/addyosmani/backbone-fundamentals&quot;&gt;addyosmani/backbone-fundamentals&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://peepcode.com/products/backbone-js&quot;&gt;Backbone.js Tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.joezimjs.com/javascript/introduction-to-backbone-js-part-1-models-video-tutorial/&quot;&gt;Introduction to Backbone.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://buildmobile.com/roll-your-own-framework-with-backbone-js/&quot;&gt;Roll Your Own Framework With Backbone.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://backbonefu.com/2011/08/front-end-developer-to-backbone-js-what-you-need-to-know/&quot;&gt;Front-end developer to backbone.js, what you need to know&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/sessions/build-a-contacts-manager-using-backbone-js/&quot;&gt;Getting to Know Backbone.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/stubbornella/csslint/wiki/Command-line-interface&quot;&gt;Command-line Interface · stubbornella/csslint Wiki&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>Twitter / Front-end Developers</title>
+			<link href="http://seven.studiomohawk.com/frontend/2012/05/12/twitter-front-end-devs/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/frontend/2012/05/12/twitter-front-end-devs</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/mdo&quot;&gt;Mark Otto (mdo)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/bbodien&quot;&gt;Ben Bodien (bbodien)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/mathias&quot;&gt;Mathias Bynens (mathias)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/brad_frost&quot;&gt;Brad Frost (brad_frost)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/rem&quot;&gt;Remy Sharp (rem)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/adactio&quot;&gt;Jeremy Keith (adactio)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/paul_irish&quot;&gt;Paul Irish (paul_irish)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;h3&gt;JavaScript圧縮&lt;/h3&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>CSS / Modular CSS</title>
+			<link href="http://seven.studiomohawk.com/css/2012/05/12/css-modular-css/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/css/2012/05/12/css-modular-css</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/stubbornella/oocss&quot;&gt;oocss&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://smacss.com/&quot;&gt;Scalable and Modular Architecture for CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2012/04/20/decoupling-html-from-css/&quot;&gt;Decoupling HTML From CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/&quot;&gt;A New Front-End Methodology: BEM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/&quot;&gt;The single responsibility principle applied to CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nicolasgallagher.com/about-html-semantics-front-end-architecture/&quot;&gt;About HTML semantics and front-end architecture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/&quot;&gt;The media object saves hundreds of lines of code&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/mishoo/UglifyJS&quot;&gt;mishoo/UglifyJS&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;uglifyjs -o OUTPUT-FILENAME INPUT-FILENAME&lt;/code&gt; / ファイル名を変更  &lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;uglifyjs --overwrite INPUT_FILENAME&lt;/code&gt; / ファイルを上書き&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;JavaScript結合&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/ender-js/Ender&quot;&gt;ender-js/Ender&lt;/a&gt;&lt;/strong&gt;  &lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://ender.no.de/#publishing&quot;&gt;Ender / publishing&lt;/a&gt;でEnder用のパッケージの作成方法について書かれている。  &lt;/p&gt;
-
-&lt;p&gt;疑問: &lt;code&gt;repository&lt;/code&gt;は必須か？&lt;/p&gt;
-
-&lt;h3&gt;JavaScript シンタックスチェック&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/jshint/node-jshint/&quot;&gt;jshint/node-jshint&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3&gt;その他&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/ryanmcgrath/wrench-js&quot;&gt;ryanmcgrath/wrench-js&lt;/a&gt;&lt;/strong&gt; / ファイルの作成、コピー、移動&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/isaacs/node-glob&quot;&gt;isaacs/node-glob&lt;/a&gt;&lt;/strong&gt; / ファイルパスを文字列パターンから検索&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Ruby / Python / UNIXツール&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://yostudios.github.com/Spritemapper/&quot;&gt;Spritemapper&lt;/a&gt; / CSS Spriteの生成&lt;/li&gt;
-  &lt;li&gt;gifsicle、libjpeg、optipng、pngcrushを使った画像最適化&lt;/li&gt;
-  &lt;li&gt;rsyncでサーバにアップ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;参考リンク&lt;/h2&gt;
-
-&lt;h3&gt;記事&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.millermedeiros.com/node-js-as-a-build-script/&quot;&gt;Node.js as a build script by Miller Medeiros&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://howtonode.org/intro-to-jake&quot;&gt;Intro to Jake - JavaScript build tool for Node.js by How To Node&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://clock.co.uk/tech-blogs/deploying-nodejs-apps&quot;&gt;Deploying node.js apps by Ben Gourley by Clock&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://upliftingcode.com/blog/front-end-build-script-tasks&quot;&gt;upliftingcode: Front End Build Script Tasks - deciphering the web one variable at a time&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;リポジトリ&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/balupton/buildr.npm&quot;&gt;balupton/buildr.npm&lt;/a&gt; / 画像圧縮まわり&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/BrainSwap/Mandible2&quot;&gt;BrainSwap/Mandible2&lt;/a&gt; / jakeFileの設定まわり&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/mde/jake&quot;&gt;mde/jake&lt;/a&gt; / jakeのシンタックス&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/h5bp/node-build-script&quot;&gt;h5bp/node-build-script&lt;/a&gt; / デファクトデフォルトなので参考に&lt;/li&gt;
-&lt;/ul&gt;
+				&lt;hr /&gt;
+				&lt;h5&gt;Elsewhere&lt;/h5&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
+				&lt;/ul&gt;
+			</content>
+		</entry>
+	
+		<entry>
+			<title>JavaScript / Object-oriented</title>
+			<link href="http://seven.studiomohawk.com/javascript/2012/05/12/javascript-oo/"/>
+			<updated></updated>
+			<id>http://seven.studiomohawk.com/javascript/2012/05/12/javascript-oo</id>
+			<content type="html">
+				&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/&quot;&gt;Understanding “Prototypes” in JavaScript &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/tutorials/javascript-ajax/prototypes-in-javascript-what-you-need-to-know/&quot;&gt;Prototypes in JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/magazine/ff852808.aspx&quot;&gt;Prototypes and Inheritance in JavaScript&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/&quot;&gt;Object-orientation and inheritance in JavaScript: a comprehensive explanation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.adobe.com/devnet/html5/articles/javascript-object-creation.html&quot;&gt;JavaScript object creation, Learning to live without “new”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://beardedocto.tumblr.com/post/22380807033/js-inheritance-in-15mins-or-less&quot;&gt;JS Inheritance in 15mins or Less&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://beardedocto.tumblr.com/post/21920818233/oo-js-in-15mins-or-less&quot;&gt;OO JS in 15mins or Less&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
