@@ -207,7 +207,7 @@ dd {
 menu,
 ol,
 ul {
-  padding: 0 0 0 40px;
+  padding: 0;
 }
 /*
  * Corrects list images handled incorrectly in IE7
@@ -2115,8 +2115,13 @@ html {
   border-bottom: 1px dotted #393939;
 }
 .the-article .content li a {
-  display: block;
+  display: inline-block;
   padding: 12px 10px 11px 0;
+}
+.the-article .content li span {
+  color: rgba(254, 242, 235, 0.8);
+  float: right;
+  padding: 12px 0 11px 10px;
 }
 .the-article .ft .group {
   padding-top: 23px;
@@ -2166,11 +2171,6 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 54.375em;
-  }
-  .the-article .mod-social {
-    margin-left: auto;
-    margin-right: auto;
-    width: 43.125em;
   }
 }
 @media only screen and (min-width: 1382px) {

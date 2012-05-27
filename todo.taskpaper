@@ -1,11 +1,11 @@
 Seven:
-	
+
 	- JavaScript: OO @done
 	- JavaScript: what is "this"
 	- CSS: Modularity @done
 	- CSS: debugging
 	- Documentation: Styleguide @done
-	- Content Strategy: Basics
+	- Content Strategy: Basics @done
 	- Front End Developers to follow on Twitter @done
 	- UX Designer to follow on Twitter
 	- CSS Developer to follow on Twitter
@@ -24,13 +24,13 @@ Seven:
 	- Responsive Design: Basics
 	- Workflow
 	- Wireframe @done
-	- Prototype
+	- Prototype @done
 	- In Browser Design @done
 	- Responsive Design: Image
-	- Typography: Basics
+	- Typography: Basics @done
 	- Typography: Inspirations
-	- UX: Basics
-	- CSS3: animation
+	- UX: Basics @done
+	- CSS3: animation @done
 	- CSS3: Selector
 	- CSS3: Online tools
 	- Mac: Apps for front ender @done
@@ -47,3 +47,4 @@ Seven:
 	- Mobile First @done
 	- JavaScript: game, basics
 	- JavaScript: game, optimization
+	- Git: basics @done

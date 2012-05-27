@@ -8,15 +8,21 @@
 <article class="the-article hentry">
 	<div class="mod">
 		<div class="inner">
-			<div class="hd">
-				<div class="group">
-				<time class="date-pub milli" title="{{ page.date | date_to_xmlschema }}">
-					<span class="year">{{ page.date | date: '%y' }}</span>
-					<span class="month">{{ page.date | date: '%m' }}</span>
-					<span class="day">{{ page.date | date: '%d' }}</span>
-				</time>
-				<h1 class="post-title">{{ page.title }}</h1>
-				</div><!-- group -->
+				<div class="hd">
+					<div class="group">
+						<h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+						<div class="meta">
+							<p class="milli">
+							<time class="date-pub" title="{{ post.date | date_to_xmlschema }}">
+								<span class="year">{{ page.date | date: '%y' }}</span>
+								<span class="month">{{ page.date | date: '%m' }}</span>
+								<span class="day">{{ page.date | date: '%d' }}</span>
+							</time>
+							<span class="category">{{ page.categories }}</span>
+							</p>
+						</div><!-- meta -->
+					</div><!-- group -->
+				</div><!-- hd -->
 			</div>
 			<div class="bd">
 				<div class="content">
