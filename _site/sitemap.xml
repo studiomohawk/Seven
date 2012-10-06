@@ -6,7 +6,7 @@
 		http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
 <loc>http://seven.studiomohawk.com</loc>
-	<lastmod>2012-05-28T00:14:03+09:00</lastmod>
+	<lastmod>2012-10-06T17:30:31+09:00</lastmod>
 	<priority>1.0</priority>
 </url>
 
@@ -78,11 +78,6 @@
 <url>
 	<loc>http://seven.studiomohawk.com/frontend/2012/05/12/documentation-styleguide/</loc>
 	<lastmod>2012-05-12T16:02:08+09:00</lastmod>
-</url>
-
-<url>
-	<loc>http://seven.studiomohawk.com/misc/2012/05/12/mailmagazine/</loc>
-	<lastmod>2012-05-12T15:55:19+09:00</lastmod>
 </url>
 
 <url>

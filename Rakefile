@@ -11,22 +11,23 @@ layout: post
 title: "#{args.title}"
 date: #{Time.now.strftime('%Y-%m-%d %k:%M:%S')}
 category:
+published: false
 ---
 
-1. 
-<span></span>
-2. 
-<span></span>
-3. 
-<span></span>
-4. 
-<span></span>
-5. 
-<span></span>
-6. 
-<span></span>
-7. 
-<span></span>
+###
+
+###
+
+###
+
+###
+
+###
+
+###
+
+###
+
 EOS
     end
   puts "Now open #{path} in an editor."
@@ -70,11 +71,8 @@ task :build do
   system "jekyll"
 end
 
-desc "Package app for production"
-task :package do
-
-  puts "Build LESS for production..."
-  Rake::Task["lessproduction"].invoke
+desc "Package and up"
+task :up do
 
   puts "Build Jekyll..."
   Rake::Task["build"].invoke
@@ -85,13 +83,13 @@ task :package do
   puts "Minify JS with UglyfyJS..."
   Rake::Task["uglifyjs"].invoke
 
-  puts "Optimise all PNG files with optipng..."
-  Rake::Task["optipng"].invoke
-
-  puts "git commit -am 'package is done'..."
+	puts "git commit -am 'package is done'..."
   system "git commit -am 'package is done'"
 
   puts "Ready for deploy!"
+
+  Rake::Task["deploy"].invoke
+
 end
 
 desc "Deploy Amazon s3 Using s3Sync"

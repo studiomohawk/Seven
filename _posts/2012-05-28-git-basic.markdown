@@ -5,17 +5,16 @@ date: 2012-05-28  0:11:18
 category: git
 ---
 
-1. [Git Is Simpler Than You Think](http://nfarina.com/post/9868516270/git-is-simpler)
-<span>nfarina.com</span>
-2. [Starting with Git: Cheat Sheet](http://thinkvitamin.com/code/starting-with-git-cheat-sheet/)
-<span>thinkvitamin.com</span>
-3. [Git - Book](http://git-scm.com/book)
-<span>git-scm.com</span>
-4. [Git Reference](http://gitref.org/)
-<span>gitref.org</span>
-5. [Think Like (a) Git](http://think-like-a-git.net/)
-<span>think-like-a-git.net</span>
-6. [A few of my Git tricks, tips and workflows](http://nuclearsquid.com/writings/git-tricks-tips-workflows/)
-<span>nuclearsquid.com</span>
-7. [Git Immersion](http://gitimmersion.com/)
-<span>gitimmersion.com</span>
+### [Git Is Simpler Than You Think](http://nfarina.com/post/9868516270/git-is-simpler)
+
+### [Starting with Git: Cheat Sheet](http://thinkvitamin.com/code/starting-with-git-cheat-sheet/)
+
+### [Git - Book](http://git-scm.com/book)
+
+### [Git Reference](http://gitref.org/)
+
+### [Think Like (a) Git](http://think-like-a-git.net/)
+
+### [A few of my Git tricks, tips and workflows](http://nuclearsquid.com/writings/git-tricks-tips-workflows/)
+
+### [Git Immersion](http://gitimmersion.com/)

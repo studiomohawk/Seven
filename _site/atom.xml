@@ -4,7 +4,7 @@
 	<title>Seven | Handpicked lists for Front Ender.</title>
 	<link href="http://seven.studiomohawk.com/atom.xml" rel="self"/>
 	<link href="http://seven.studiomohawk.com"/>
-	<updated>2012-05-28T00:14:03+09:00</updated>
+	<updated>2012-10-06T17:30:31+09:00</updated>
 	<id>http://css.studiomohawk.com/</id>
 	<author>
 		<name>Yuya Saito</name>
@@ -17,22 +17,19 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/git/2012/05/28/git-basic</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://nfarina.com/post/9868516270/git-is-simpler&quot;&gt;Git Is Simpler Than You Think&lt;/a&gt;
-&lt;span&gt;nfarina.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://thinkvitamin.com/code/starting-with-git-cheat-sheet/&quot;&gt;Starting with Git: Cheat Sheet&lt;/a&gt;
-&lt;span&gt;thinkvitamin.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://git-scm.com/book&quot;&gt;Git - Book&lt;/a&gt;
-&lt;span&gt;git-scm.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://gitref.org/&quot;&gt;Git Reference&lt;/a&gt;
-&lt;span&gt;gitref.org&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://think-like-a-git.net/&quot;&gt;Think Like (a) Git&lt;/a&gt;
-&lt;span&gt;think-like-a-git.net&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://nuclearsquid.com/writings/git-tricks-tips-workflows/&quot;&gt;A few of my Git tricks, tips and workflows&lt;/a&gt;
-&lt;span&gt;nuclearsquid.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://gitimmersion.com/&quot;&gt;Git Immersion&lt;/a&gt;
-&lt;span&gt;gitimmersion.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://nfarina.com/post/9868516270/git-is-simpler&quot;&gt;Git Is Simpler Than You Think&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://thinkvitamin.com/code/starting-with-git-cheat-sheet/&quot;&gt;Starting with Git: Cheat Sheet&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://git-scm.com/book&quot;&gt;Git - Book&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://gitref.org/&quot;&gt;Git Reference&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://think-like-a-git.net/&quot;&gt;Think Like (a) Git&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://nuclearsquid.com/writings/git-tricks-tips-workflows/&quot;&gt;A few of my Git tricks, tips and workflows&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://gitimmersion.com/&quot;&gt;Git Immersion&lt;/a&gt;&lt;/h3&gt;
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -50,22 +47,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/design/2012/05/28/content-strategy</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.uie.com/articles/discipline_content_strategy/&quot;&gt;The Discipline of Content Strategy&lt;/a&gt;
-&lt;span&gt;uie.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://24ways.org/2011/extracting-the-content&quot;&gt;Extracting the Content&lt;/a&gt;
-&lt;span&gt;24ways.org&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.alistapart.com/articles/future-ready-content/&quot;&gt;Future-Ready Content&lt;/a&gt;
-&lt;span&gt;alistapart.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.alistapart.com/articles/content-modelling-a-master-skill/&quot;&gt;Content Modelling: A Master Skill&lt;/a&gt;
-&lt;span&gt;alistapart.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uxdesign.smashingmagazine.com/2011/12/02/content-strategy-within-design-process/&quot;&gt;Content Strategy Within The Design Process&lt;/a&gt;
-&lt;span&gt;smashingmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.tendocom.com/view/content-strategy-not-always-ux-320&quot;&gt;Content strategy is not always UX&lt;/a&gt;
-&lt;span&gt;tendocom.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.netmagazine.com/opinions/separate-mobile-website-no-forking-way&quot;&gt;A separate mobile website: no forking way&lt;/a&gt;
-&lt;span&gt;netmagazine.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://www.uie.com/articles/discipline_content_strategy/&quot;&gt;The Discipline of Content Strategy&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://24ways.org/2011/extracting-the-content&quot;&gt;Extracting the Content&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.alistapart.com/articles/future-ready-content/&quot;&gt;Future-Ready Content&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.alistapart.com/articles/content-modelling-a-master-skill/&quot;&gt;Content Modelling: A Master Skill&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://uxdesign.smashingmagazine.com/2011/12/02/content-strategy-within-design-process/&quot;&gt;Content Strategy Within The Design Process&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.tendocom.com/view/content-strategy-not-always-ux-320&quot;&gt;Content strategy is not always UX&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.netmagazine.com/opinions/separate-mobile-website-no-forking-way&quot;&gt;A separate mobile website: no forking way&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -83,22 +78,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/ux/2012/05/27/ux-design-basic</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.fastcodesign.com/1669503/user-experience-is-the-heart-of-any-company-how-do-you-make-it-top-priority&quot;&gt;User Experience Is The Heart Of Any Company. How Do You Make It Top Priority?&lt;/a&gt;
-&lt;span&gt;fastcodesign.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uxmag.com/articles/you-are-solving-the-wrong-problem&quot;&gt;You Are Solving The Wrong Problem&lt;/a&gt;
-&lt;span&gt;uxmag.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://designm.ag/resources/5-proven-ux-strategies/&quot;&gt;5 Proven UX Strategies&lt;/a&gt;
-&lt;span&gt;designm.ag&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uxdesign.smashingmagazine.com/2011/09/13/the-s-m-a-r-t-user-experience-strategy/&quot;&gt;The S.M.A.R.T. User Experience Strategy&lt;/a&gt;
-&lt;span&gt;smashingmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://toobigtotweet.tumblr.com/post/18023531982/i-dont-believe-in-ux-design&quot;&gt;Too Big to Tweet - I don’t believe in UX Design.&lt;/a&gt;
-&lt;span&gt;toobigtotweet.tumblr.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ghostinthepixel.com/?p=714&quot;&gt;UX primer for startups&lt;/a&gt;
-&lt;span&gt;ghostinthepixel.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uxmag.com/articles/cognition-the-intrinsic-user-experience&quot;&gt;Cognition &amp;amp; The Intrinsic User Experience&lt;/a&gt;
-&lt;span&gt;uxmag.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://www.fastcodesign.com/1669503/user-experience-is-the-heart-of-any-company-how-do-you-make-it-top-priority&quot;&gt;User Experience Is The Heart Of Any Company. How Do You Make It Top Priority?&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://uxmag.com/articles/you-are-solving-the-wrong-problem&quot;&gt;You Are Solving The Wrong Problem&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://designm.ag/resources/5-proven-ux-strategies/&quot;&gt;5 Proven UX Strategies&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://uxdesign.smashingmagazine.com/2011/09/13/the-s-m-a-r-t-user-experience-strategy/&quot;&gt;The S.M.A.R.T. User Experience Strategy&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://toobigtotweet.tumblr.com/post/18023531982/i-dont-believe-in-ux-design&quot;&gt;I don’t believe in UX Design.&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.ghostinthepixel.com/?p=714&quot;&gt;UX primer for startups&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://uxmag.com/articles/cognition-the-intrinsic-user-experience&quot;&gt;Cognition &amp;amp; The Intrinsic User Experience&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -116,22 +109,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/typography/2012/05/27/typography-basic</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.smashingmagazine.com/2012/05/02/applying-macrotypography-for-readable-web-page/&quot;&gt;Applying Macrotypography For A More Readable Web Page&lt;/a&gt;
-&lt;span&gt;smashingmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://8gramgorilla.com/the-masochism-of-implementing-css-baseline/&quot;&gt;The masochism of implementing CSS baseline&lt;/a&gt;
-&lt;span&gt;8gramgorilla.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://beta.typecastapp.com/blog/4-simple-steps-to-vertical-rhythm/?utm_medium=rss#When:10:07Z&quot;&gt;4 Simple Steps to Vertical Rhythm&lt;/a&gt;
-&lt;span&gt;beta.typecastapp.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://24ways.org/2011/composing-the-new-canon&quot;&gt;Composing the New Canon: Music, Harmony, Proportion&lt;/a&gt;
-&lt;span&gt;24ways.org&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.8thlight.com/billy-whited/2011/10/28/r-a-ela-tional-design.html&quot;&gt;R(a|ela)tional Design&lt;/a&gt;
-&lt;span&gt;blog.8thlight.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.pearsonified.com/2011/12/golden-ratio-typography.php&quot;&gt;The Ultimate Guide to Golden Ratio Typography&lt;/a&gt;
-&lt;span&gt;pearsonified.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.alistapart.com/articles/more-meaningful-typography/&quot;&gt;More Meaningful Typography&lt;/a&gt;
-&lt;span&gt;alistapart.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://www.smashingmagazine.com/2012/05/02/applying-macrotypography-for-readable-web-page/&quot;&gt;Applying Macrotypography For A More Readable Web Page&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://8gramgorilla.com/the-masochism-of-implementing-css-baseline/&quot;&gt;The masochism of implementing CSS baseline&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://beta.typecastapp.com/blog/4-simple-steps-to-vertical-rhythm/?utm_medium=rss#When:10:07Z&quot;&gt;4 Simple Steps to Vertical Rhythm&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://24ways.org/2011/composing-the-new-canon&quot;&gt;Composing the New Canon: Music, Harmony, Proportion&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://blog.8thlight.com/billy-whited/2011/10/28/r-a-ela-tional-design.html&quot;&gt;R(a|ela)tional Design&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.pearsonified.com/2011/12/golden-ratio-typography.php&quot;&gt;The Ultimate Guide to Golden Ratio Typography&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.alistapart.com/articles/more-meaningful-typography/&quot;&gt;More Meaningful Typography&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -149,22 +140,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/css/2012/05/27/css3-animation</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.inserthtml.com/2012/01/definitive-guide-css-animations-transitions/&quot;&gt;The Definitive Guide to CSS Animations and Transitions&lt;/a&gt;
-&lt;span&gt;inserthtml.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2011/09/14/the-guide-to-css-animation-principles-and-examples/&quot;&gt;The Guide To CSS Animation: Principles and Examples&lt;/a&gt;
-&lt;span&gt;smashingmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uxdesign.smashingmagazine.com/2012/02/28/mission-transition/&quot;&gt;Mission Transition&lt;/a&gt;
-&lt;span&gt;smashingmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stuffandnonsense.co.uk/blog/about/its_a_mad_mad_mad_mad_manimation/#When:22:05:50Z&quot;&gt;It’s a mad, mad, mad, mad manimation&lt;/a&gt;
-&lt;span&gt;stuffandnonsense.co.uk&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://daneden.me/2012/03/optimising-animations-and-transitions/&quot;&gt;Optimising animations and transitions&lt;/a&gt;
-&lt;span&gt;daneden.me&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.netmagazine.com/tutorials/masterclass-css-animations&quot;&gt;A masterclass in CSS animations&lt;/a&gt;
-&lt;span&gt;netmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.vanseodesign.com/css/animation/&quot;&gt;Animation With CSS: It’s Easier Than You Think&lt;/a&gt;
-&lt;span&gt;vanseodesign.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://www.inserthtml.com/2012/01/definitive-guide-css-animations-transitions/&quot;&gt;The Definitive Guide to CSS Animations and Transitions&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2011/09/14/the-guide-to-css-animation-principles-and-examples/&quot;&gt;The Guide To CSS Animation: Principles and Examples&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://uxdesign.smashingmagazine.com/2012/02/28/mission-transition/&quot;&gt;Mission Transition&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://stuffandnonsense.co.uk/blog/about/its_a_mad_mad_mad_mad_manimation/#When:22:05:50Z&quot;&gt;It’s a mad, mad, mad, mad manimation&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://daneden.me/2012/03/optimising-animations-and-transitions/&quot;&gt;Optimising animations and transitions&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.netmagazine.com/tutorials/masterclass-css-animations&quot;&gt;A masterclass in CSS animations&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.vanseodesign.com/css/animation/&quot;&gt;Animation With CSS: It’s Easier Than You Think&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -182,22 +171,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/design/2012/05/27/prototyping</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.alistapart.com/articles/dive-into-responsive-prototyping-with-foundation/&quot;&gt;Articles: Dive into Responsive Prototyping with Foundation&lt;/a&gt;
-&lt;span&gt;alistapart.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://edenspiekermann.com/en/blog/espi-at-work-the-power-of-keynote&quot;&gt;The power of Keynote&lt;/a&gt;
-&lt;span&gt;edenspiekermann.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.zurb.com/article/923/in-browser-prototyping-or-how-we-rapidly-&quot;&gt;In-Browser Prototyping … Or How We Rapidly Rebooted ZURBword&lt;/a&gt;
-&lt;span&gt;zurb.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://boagworld.com/design/a-prototype-is-worth-a-thousand-words/&quot;&gt;A prototype is worth a thousand words&lt;/a&gt;
-&lt;span&gt;boagworld.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.rosenfeldmedia.com/books/mobile-design/blog/mobile_prototyping_essentials/&quot;&gt;The Mobile Frontier: Mobile Prototyping Essentials&lt;/a&gt;
-&lt;span&gt;rosenfeldmedia.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.uxforthemasses.com/rapid-prototyping/&quot;&gt;Wireframes are dead, long live rapid prototyping&lt;/a&gt;
-&lt;span&gt;uxforthemasses.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.fuzzymath.com/2010/02/12/wireframes-vs-prototypes/&quot;&gt;Wireframes vs. Prototypes&lt;/a&gt;
-&lt;span&gt;blog.fuzzymath.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://www.alistapart.com/articles/dive-into-responsive-prototyping-with-foundation/&quot;&gt;Articles: Dive into Responsive Prototyping with Foundation&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://edenspiekermann.com/en/blog/espi-at-work-the-power-of-keynote&quot;&gt;The power of Keynote&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.zurb.com/article/923/in-browser-prototyping-or-how-we-rapidly-&quot;&gt;In-Browser Prototyping … Or How We Rapidly Rebooted ZURBword&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://boagworld.com/design/a-prototype-is-worth-a-thousand-words/&quot;&gt;A prototype is worth a thousand words&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.rosenfeldmedia.com/books/mobile-design/blog/mobile_prototyping_essentials/&quot;&gt;The Mobile Frontier: Mobile Prototyping Essentials&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.uxforthemasses.com/rapid-prototyping/&quot;&gt;Wireframes are dead, long live rapid prototyping&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://blog.fuzzymath.com/2010/02/12/wireframes-vs-prototypes/&quot;&gt;Wireframes vs. Prototypes&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -215,22 +202,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/design/2012/05/20/wireframe</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://52weeksofux.com/post/866406780/wireframing-is-not-a-religion&quot;&gt;Wireframing is not a religion&lt;/a&gt;
-&lt;span&gt;52weeksofux.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uxmovement.com/wireframes/how-to-get-clients-to-approve-your-wireframes-every-time/&quot;&gt;How to Get Clients to Approve Your Wireframes Every Time&lt;/a&gt;
-&lt;span&gt;uxmovement.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uxmag.com/articles/shades-of-grey-wireframes-as-thinking-device&quot;&gt;Shades of Grey: Wireframes as Thinking Device&lt;/a&gt;
-&lt;span&gt;uxmag.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://leehardingonline.co.uk/2010/06/the-value-of-wireframing/&quot;&gt;The Value of Wireframing via Lee Harding Web Design in Widnes&lt;/a&gt;
-&lt;span&gt;leehardingonline.co.uk&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://boagworld.com/design/wireframing-for-responsive-design/&quot;&gt;Wireframing for responsive design&lt;/a&gt;
-&lt;span&gt;boagworld.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://userpathways.com/2008/06/the-what-when-and-why-of-wireframes/&quot;&gt;The what, when and why of wireframes&lt;/a&gt;
-&lt;span&gt;userpathways.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://speckyboy.com/2011/05/29/20-effective-examples-of-web-and-mobile-wireframe-sketches/&quot;&gt;20 Effective Examples of Web and Mobile Wireframe Sketches&lt;/a&gt;
-&lt;span&gt;speckyboy.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://52weeksofux.com/post/866406780/wireframing-is-not-a-religion&quot;&gt;Wireframing is not a religion&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://uxmovement.com/wireframes/how-to-get-clients-to-approve-your-wireframes-every-time/&quot;&gt;How to Get Clients to Approve Your Wireframes Every Time&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://uxmag.com/articles/shades-of-grey-wireframes-as-thinking-device&quot;&gt;Shades of Grey: Wireframes as Thinking Device&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://leehardingonline.co.uk/2010/06/the-value-of-wireframing/&quot;&gt;The Value of Wireframing via Lee Harding Web Design in Widnes&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://boagworld.com/design/wireframing-for-responsive-design/&quot;&gt;Wireframing for responsive design&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://userpathways.com/2008/06/the-what-when-and-why-of-wireframes/&quot;&gt;The what, when and why of wireframes&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://speckyboy.com/2011/05/29/20-effective-examples-of-web-and-mobile-wireframe-sketches/&quot;&gt;20 Effective Examples of Web and Mobile Wireframe Sketches&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -248,22 +233,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/rwd/2012/05/20/mobile-first</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.lukew.com/ff/entry.asp?933&quot;&gt;Mobile First&lt;/a&gt;
-&lt;span&gt;lukew.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.abookapart.com/products/mobile-first&quot;&gt;Mobile First(Book)&lt;/a&gt;
-&lt;span&gt;abookapart.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.forbes.com/sites/anthonykosner/2012/01/30/the-qofc-interview-luke-wroblewski-author-of-mobile-first/&quot;&gt;The QoC Interview: Luke Wroblewski, Author of “Mobile First”&lt;/a&gt;
-&lt;span&gt;forbes.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.easy-designs.net/archives/2011/10/12/from-mobile-friendly-to-mobile-first/&quot;&gt;From “Mobile Friendly” to “Mobile First”&lt;/a&gt;
-&lt;span&gt;blog.easy-designs.net&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.cloudfour.com/where-are-the-mobile-first-responsive-web-designs/&quot;&gt;Where are the Mobile First Responsive Web Designs?&lt;/a&gt;
-&lt;span&gt;blog.cloudfour.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.html5rocks.com/en/mobile/responsivedesign/&quot;&gt;Creating a Mobile-First Responsive Web Design&lt;/a&gt;
-&lt;span&gt;html5rocks.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bradfrostweb.com/blog/web/mobile-first-responsive-web-design/&quot;&gt;Mobile-First Responsive Web Design&lt;/a&gt;
-&lt;span&gt;bradfrostweb.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://www.lukew.com/ff/entry.asp?933&quot;&gt;Mobile First&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.abookapart.com/products/mobile-first&quot;&gt;Mobile First(Book)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.forbes.com/sites/anthonykosner/2012/01/30/the-qofc-interview-luke-wroblewski-author-of-mobile-first/&quot;&gt;The QoC Interview: Luke Wroblewski, Author of “Mobile First”&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://blog.easy-designs.net/archives/2011/10/12/from-mobile-friendly-to-mobile-first/&quot;&gt;From “Mobile Friendly” to “Mobile First”&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://blog.cloudfour.com/where-are-the-mobile-first-responsive-web-designs/&quot;&gt;Where are the Mobile First Responsive Web Designs?&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.html5rocks.com/en/mobile/responsivedesign/&quot;&gt;Creating a Mobile-First Responsive Web Design&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://bradfrostweb.com/blog/web/mobile-first-responsive-web-design/&quot;&gt;Mobile-First Responsive Web Design&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -281,22 +264,19 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/javascript/2012/05/20/jquery-plugins-how-to</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://tutsplus.com/lesson/head-first-into-plugin-development/&quot;&gt;30 Days to Learn jQuery - Head First Into Plugin Development via Tuts+ Premium Course&lt;/a&gt;
-&lt;span&gt;tutsplus.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2011/10/11/essential-jquery-plugin-patterns/&quot;&gt;Essential jQuery Plugin Patterns via Smashing Coding&lt;/a&gt;
-&lt;span&gt;smashingmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://fuelyourcoding.com/jquery-plugin-design-patterns-part-i/&quot;&gt;jQuery Plugin Design Patterns: Part I via Fuel Your Coding&lt;/a&gt;
-&lt;span&gt;fuelyourcoding.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stefangabos.ro/jquery/jquery-plugin-boilerplate-oop/&quot;&gt;jQuery Plugin Boilerplate&lt;/a&gt;
-&lt;span&gt;stefangabos.ro&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://benalman.com/talks/jquery-pluginization.html&quot;&gt;jQuery Pluginization&lt;/a&gt;
-&lt;span&gt;benalman.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.websanova.com/tutorials/jquery/10-coding-tips-to-write-superior-jquery-plugins&quot;&gt;10 Coding Tips to Write Superior jQuery Plugins via Websanova&lt;/a&gt;
-&lt;span&gt;websanova.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://javascriptplayground.com/blog/2012/04/a-jquery-plugin-with-grunt-qunit&quot;&gt;A jQuery Plugin with Grunt &amp;amp; QUnit via The JavaScript Playground&lt;/a&gt;
-&lt;span&gt;javascriptplayground.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://tutsplus.com/lesson/head-first-into-plugin-development/&quot;&gt;30 Days to Learn jQuery - Head First Into Plugin Development&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2011/10/11/essential-jquery-plugin-patterns/&quot;&gt;Essential jQuery Plugin Patterns via Smashing Coding&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://fuelyourcoding.com/jquery-plugin-design-patterns-part-i/&quot;&gt;jQuery Plugin Design Patterns: Part I via Fuel Your Coding&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://stefangabos.ro/jquery/jquery-plugin-boilerplate-oop/&quot;&gt;jQuery Plugin Boilerplate&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://benalman.com/talks/jquery-pluginization.html&quot;&gt;jQuery Pluginization&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.websanova.com/tutorials/jquery/10-coding-tips-to-write-superior-jquery-plugins&quot;&gt;10 Coding Tips to Write Superior jQuery Plugins&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://javascriptplayground.com/blog/2012/04/a-jquery-plugin-with-grunt-qunit&quot;&gt;A jQuery Plugin with Grunt &amp;amp; QUnit&lt;/a&gt;&lt;/h3&gt;
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -314,22 +294,19 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/performance/2012/05/20/performance-basics</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developers.google.com/speed/docs/best-practices/rules_intro&quot;&gt;Web Performance Best Practices - Make the Web Faster&lt;/a&gt;
-&lt;span&gt;developers.google.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://developer.yahoo.com/performance/rules.html&quot;&gt;Best Practices for Speeding Up Your Web Site&lt;/a&gt;
-&lt;span&gt;developer.yahoo.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stevesouders.com/hpws/rules.php&quot;&gt;High Performance Web Sites&lt;/a&gt;
-&lt;span&gt;stevesouders.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://static.trygve-lie.com/doc/browser_performance/#slide1&quot;&gt;Browser Performance&lt;/a&gt;
-&lt;span&gt;static.trygve-lie.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://blog.jphpsf.com/2012/04/28/front-end-performance-case-study-github/&quot;&gt;Front End Performance Case Study: GitHub&lt;/a&gt;
-&lt;span&gt;blog.jphpsf.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://calendar.perfplanet.com/2011/&quot;&gt;Performance Calendar&lt;/a&gt;
-&lt;span&gt;calendar.perfplanet.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.perfplanet.com/&quot;&gt;Planet Performance&lt;/a&gt;
-&lt;span&gt;perfplanet.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;https://developers.google.com/speed/docs/best-practices/rules_intro&quot;&gt;Web Performance Best Practices - Make the Web Faster&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://developer.yahoo.com/performance/rules.html&quot;&gt;Best Practices for Speeding Up Your Web Site&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://stevesouders.com/hpws/rules.php&quot;&gt;High Performance Web Sites&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://static.trygve-lie.com/doc/browser_performance/#slide1&quot;&gt;Browser Performance&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://blog.jphpsf.com/2012/04/28/front-end-performance-case-study-github/&quot;&gt;Front End Performance Case Study: GitHub&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://calendar.perfplanet.com/2011/&quot;&gt;Performance Calendar&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.perfplanet.com/&quot;&gt;Planet Performance&lt;/a&gt;&lt;/h3&gt;
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -347,22 +324,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/design/2012/05/12/design-in-browser-design</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://shapingthepage.com/journal/do-we-really-need-a-new-web-design-app&quot;&gt;Do We Really Need a New Web Design App?&lt;/a&gt;
-&lt;span&gt;shapingthepage.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.stuffandnonsense.co.uk/blog/about/walls_come_tumbling_down_presentation_slides_and_transcript/&quot;&gt;Walls Come Tumbling Down presentation slides and transcript&lt;/a&gt;
-&lt;span&gt;www.stuffandnonsense.co.uk&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://24ways.org/2009/make-your-mockup-in-markup&quot;&gt;Make Your Mockup in Markup&lt;/a&gt;
-&lt;span&gt;24ways.org&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://37signals.com/svn/posts/1061-why-we-skip-photoshop&quot;&gt;Why we skip Photoshop&lt;/a&gt;
-&lt;span&gt;37signals.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.quora.com/Joel-Lewenstein/Joels-Posts/Life-Without-Photoshop&quot;&gt;Life Without Photoshop&lt;/a&gt;
-&lt;span&gt;quora.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.hicksdesign.co.uk/journal/graphics-editor-or-text-editor&quot;&gt;Graphics Editor or Text Editor?&lt;/a&gt;
-&lt;span&gt;hicksdesign.co.uk&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://inspiredm.com/learn-to-use-your-browser-in-web-design/&quot;&gt;Learn to Use Your Browser in Web Design&lt;/a&gt;
-&lt;span&gt;inspiredm.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://shapingthepage.com/journal/do-we-really-need-a-new-web-design-app&quot;&gt;Do We Really Need a New Web Design App?&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.stuffandnonsense.co.uk/blog/about/walls_come_tumbling_down_presentation_slides_and_transcript/&quot;&gt;Walls Come Tumbling Down presentation slides and transcript&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://24ways.org/2009/make-your-mockup-in-markup&quot;&gt;Make Your Mockup in Markup&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://37signals.com/svn/posts/1061-why-we-skip-photoshop&quot;&gt;Why we skip Photoshop&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.quora.com/Joel-Lewenstein/Joels-Posts/Life-Without-Photoshop&quot;&gt;Life Without Photoshop&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.hicksdesign.co.uk/journal/graphics-editor-or-text-editor&quot;&gt;Graphics Editor or Text Editor?&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://inspiredm.com/learn-to-use-your-browser-in-web-design/&quot;&gt;Learn to Use Your Browser in Web Design&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -380,22 +355,19 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/javascript/2012/05/12/twitter-javascript</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/addyosmani&quot;&gt;Addy Osmani&lt;/a&gt;
-&lt;span&gt;@addyosmani&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/slicknet&quot;&gt;Nicholas C. Zakas&lt;/a&gt;
-&lt;span&gt;@slicknet&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/rworth&quot;&gt;Richard D. Worth&lt;/a&gt;
-&lt;span&gt;@rworth&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/scottjehl&quot;&gt;Scott Jehl&lt;/a&gt;
-&lt;span&gt;@scottjehl&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/jeresig&quot;&gt;John Resig&lt;/a&gt;
-&lt;span&gt;@jeresig&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/JavaScriptDaily&quot;&gt;JavaScript Daily&lt;/a&gt;
-&lt;span&gt;@javascriptdaily&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/github_js&quot;&gt;GitHub JavaScript&lt;/a&gt;
-&lt;span&gt;@github_js&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/addyosmani&quot;&gt;Addy Osmani&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/slicknet&quot;&gt;Nicholas C. Zakas&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/rworth&quot;&gt;Richard D. Worth&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/scottjehl&quot;&gt;Scott Jehl&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/jeresig&quot;&gt;John Resig&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/JavaScriptDaily&quot;&gt;JavaScript Daily&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/github_js&quot;&gt;GitHub JavaScript&lt;/a&gt;&lt;/h3&gt;
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -413,22 +385,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/javascript/2012/05/12/javascript-books</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.amazon.co.jp/dp/4873113911&quot;&gt;JavaScript: The Good Parts by Douglas Crockford&lt;/a&gt;
-&lt;span&gt;amazon.co.jp&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.amazon.co.jp/dp/4873114888&quot;&gt;JavaScript Patterns by Stoyan Stefanov&lt;/a&gt;
-&lt;span&gt;amazon.co.jp&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://eloquentjavascript.net/&quot;&gt;Eloquent JavaScript: A Modern Introduction to Programming by Marijn Haverbeke&lt;/a&gt;
-&lt;span&gt;eloquentjavascript.net&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920025245.do&quot;&gt;Maintainable JavaScript by Nicholas C. Zakas&lt;/a&gt;
-&lt;span&gt;shop.oreilly.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.javascriptenlightenment.com/&quot;&gt;JavaScript Enlightenment by Cody Lindley&lt;/a&gt;
-&lt;span&gt;javascriptenlightenment&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/&quot;&gt;Learning JavaScript Design Patterns by Addy Osmani&lt;/a&gt;
-&lt;span&gt;addyosmani.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://leanpub.com/asyncjs&quot;&gt;Async JavaScript by Trevor Burnham&lt;/a&gt;
-&lt;span&gt;addyosmani.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://www.amazon.co.jp/dp/4873113911&quot;&gt;JavaScript: The Good Parts by Douglas Crockford&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.amazon.co.jp/dp/4873114888&quot;&gt;JavaScript Patterns by Stoyan Stefanov&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://eloquentjavascript.net/&quot;&gt;Eloquent JavaScript: A Modern Introduction to Programming by Marijn Haverbeke&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://shop.oreilly.com/product/0636920025245.do&quot;&gt;Maintainable JavaScript by Nicholas C. Zakas&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.javascriptenlightenment.com/&quot;&gt;JavaScript Enlightenment by Cody Lindley&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://addyosmani.com/resources/essentialjsdesignpatterns/book/&quot;&gt;Learning JavaScript Design Patterns by Addy Osmani&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://leanpub.com/asyncjs&quot;&gt;Async JavaScript by Trevor Burnham&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -446,55 +416,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/frontend/2012/05/12/documentation-styleguide</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://24ways.org/2011/front-end-style-guides&quot;&gt;Front-end Style Guides&lt;/a&gt;
-&lt;span&gt;24ways.org&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/hughsk/kss-node&quot;&gt;hughsk/kss-node&lt;/a&gt;
-&lt;span&gt;github.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/kneath/kss&quot;&gt;kneath/kss&lt;/a&gt;
-&lt;span&gt;github.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jacobrask/styledocco&quot;&gt;jacobrask/styledocco&lt;/a&gt;
-&lt;span&gt;github.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/lukebrooker/pattern-response&quot;&gt;lukebrooker/pattern-response&lt;/a&gt;
-&lt;span&gt;github.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://pea.rs/&quot;&gt;Pears&lt;/a&gt;
-&lt;span&gt;pea.rs&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/adactio/Pattern-Primer&quot;&gt;adactio/Pattern-Primer&lt;/a&gt;
-&lt;span&gt;github.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://24ways.org/2011/front-end-style-guides&quot;&gt;Front-end Style Guides&lt;/a&gt;&lt;/h3&gt;
 
-				&lt;hr /&gt;
-				&lt;h5&gt;Elsewhere&lt;/h5&gt;
-				&lt;ul&gt;
-					&lt;li&gt;&lt;a href=&quot;http://twitter.com/#!/cssradar&quot; rel=&quot;me&quot; title=&quot;cssradar@twitter&quot;&gt;cssradar@twitter&lt;/a&gt; / 1日5件以内のウェブデザイン情報をつぶやきます&lt;/li&gt;
-					&lt;li&gt;&lt;a href=&quot;http://tinyletter.com/cssradar&quot; rel=&quot;me&quot; title=&quot;Newsletter&quot;&gt;CSS Radar Newsletter&lt;/a&gt; / CSS Radarニュースレター。Twitterまとめ + α&lt;/li&gt;
-					&lt;li&gt;&lt;a href=&quot;https://plus.google.com/b/109704095110060909968/&quot; rel=&quot;me&quot; title=&quot;Google+ Page&quot;&gt;Google +&lt;/a&gt; / どんな風に使っていくかアイデア募集中&lt;/li&gt;
-				&lt;/ul&gt;
-			</content>
-		</entry>
-	
-		<entry>
-			<title>Mailmagazine / For Web Devs</title>
-			<link href="http://seven.studiomohawk.com/misc/2012/05/12/mailmagazine/"/>
-			<updated></updated>
-			<id>http://seven.studiomohawk.com/misc/2012/05/12/mailmagazine</id>
-			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://javascriptweekly.com/&quot;&gt;JavaScript Weekly: A Free, Weekly JavaScript Email Newsletter&lt;/a&gt;
-&lt;span&gt;javascriptweekly.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://web-design-weekly.com/&quot;&gt;Web Design Weekly&lt;/a&gt;
-&lt;span&gt;web-design-weekly.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://css-weekly.com/&quot;&gt;CSS Weekly&lt;/a&gt;
-&lt;span&gt;css-weekly.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://html5weekly.com/&quot;&gt;HTML5 Weekly: A Free, Weekly HTML5 and Browser Tech Email Newsletter&lt;/a&gt;
-&lt;span&gt;html5weekly.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/&quot;&gt;Nettuts+&lt;/a&gt;
-&lt;span&gt;net.tutsplus.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.smashingmagazine.com/the-smashing-newsletter/&quot;&gt;The Smashing Email Newsletter&lt;/a&gt;
-&lt;span&gt;smashingmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://newsletter.studiomohawk.com/&quot;&gt;CSS Radar Newsletter - Weekly Newsletter For Front End Developers&lt;/a&gt;
-&lt;span&gt;newsletter.studiomohawk.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h3&gt;&lt;a href=&quot;https://github.com/hughsk/kss-node&quot;&gt;hughsk/kss-node&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/kneath/kss&quot;&gt;kneath/kss&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/jacobrask/styledocco&quot;&gt;jacobrask/styledocco&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/lukebrooker/pattern-response&quot;&gt;lukebrooker/pattern-response&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://pea.rs/&quot;&gt;Pears&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/adactio/Pattern-Primer&quot;&gt;adactio/Pattern-Primer&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -512,22 +447,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/misc/2012/05/12/mac-app-front-end-devs</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.shpakovski.com/codebox/&quot;&gt;CodeBox — Code Snippet Manager for Mac OS X&lt;/a&gt;
-&lt;span&gt;shpakovski.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://macrabbit.com/layercake/&quot;&gt;MacRabbit - Layer Cake - Magic with PSDs&lt;/a&gt;
-&lt;span&gt;macrabbit.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://xscopeapp.com/&quot;&gt;xScope&lt;/a&gt;
-&lt;span&gt;xscopeapp.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://procssorapp.com/&quot;&gt;ProCSSor - CSS Formatter &amp;amp; Compressor for Mac OS X&lt;/a&gt;
-&lt;span&gt;procssorapp.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://livereload.com/&quot;&gt;LiveReload&lt;/a&gt;
-&lt;span&gt;livereload&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt;
-&lt;span&gt;sublimetext.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://giantcomet.com/hues?ref=appstore&quot;&gt;Hues - Mac OS X Color Picker App&lt;/a&gt;
-&lt;span&gt;giantcomet.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://www.shpakovski.com/codebox/&quot;&gt;CodeBox — Code Snippet Manager for Mac OS X&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://macrabbit.com/layercake/&quot;&gt;MacRabbit - Layer Cake - Magic with PSDs&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://xscopeapp.com/&quot;&gt;xScope&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://procssorapp.com/&quot;&gt;ProCSSor - CSS Formatter &amp;amp; Compressor for Mac OS X&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://livereload.com/&quot;&gt;LiveReload&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;Sublime Text 2&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h2&gt;&lt;a href=&quot;http://giantcomet.com/hues?ref=appstore&quot;&gt;Hues - Mac OS X Color Picker App&lt;/a&gt;&lt;/h2&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -545,22 +478,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/mobile/2012/05/12/mobile-web-best-practices</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://mobilewebbestpractices.com/resources/&quot;&gt;Mobile Web Best Practices&lt;/a&gt;
-&lt;span&gt;mobilewebbestpractices.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.the-cma.org/about/blog/designing-for-mobile&quot;&gt;Designing For Mobile - Best Practices for Superior User Experiences&lt;/a&gt;
-&lt;span&gt;the-cma.org&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ghostinthepixel.com/?p=644&quot;&gt;Mobile UX Primer&lt;/a&gt;
-&lt;span&gt;ghostinthepixel.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.netmagazine.com/features/10-principles-mobile-interface-design&quot;&gt;The 10 principles of mobile interface design&lt;/a&gt;
-&lt;span&gt;netmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uxdesign.smashingmagazine.com/2011/10/06/not-your-parents-mobile-phone-ux-design-guidelines-smartphones/&quot;&gt;Not Your Parent’s Mobile Phone: UX Design Guidelines For Smartphones&lt;/a&gt;
-&lt;span&gt;smashingmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://uxmatters.com/mt/archives/2011/01/designing-for-the-mobile-web-special-considerations.php&quot;&gt;Designing for the Mobile Web: Special Considerations&lt;/a&gt;
-&lt;span&gt;uxmatters.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://smallsurfaces.com/2012/04/7-rules-for-great-mobile-ux/&quot;&gt;7 rules for great mobile UX&lt;/a&gt;
-&lt;span&gt;smallsurfaces.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://mobilewebbestpractices.com/resources/&quot;&gt;Mobile Web Best Practices&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.the-cma.org/about/blog/designing-for-mobile&quot;&gt;Designing For Mobile - Best Practices for Superior User Experiences&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.ghostinthepixel.com/?p=644&quot;&gt;Mobile UX Primer&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.netmagazine.com/features/10-principles-mobile-interface-design&quot;&gt;The 10 principles of mobile interface design&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://uxdesign.smashingmagazine.com/2011/10/06/not-your-parents-mobile-phone-ux-design-guidelines-smartphones/&quot;&gt;Not Your Parent’s Mobile Phone: UX Design Guidelines For Smartphones&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://uxmatters.com/mt/archives/2011/01/designing-for-the-mobile-web-special-considerations.php&quot;&gt;Designing for the Mobile Web: Special Considerations&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://smallsurfaces.com/2012/04/7-rules-for-great-mobile-ux/&quot;&gt;7 rules for great mobile UX&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -578,22 +509,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/javascript/2012/05/12/javascript-backbone.js</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://documentcloud.github.com/backbone/&quot;&gt;Backbone.js&lt;/a&gt;
-&lt;span&gt;documentcloud.github.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/addyosmani/backbone-fundamentals&quot;&gt;addyosmani/backbone-fundamentals&lt;/a&gt;
-&lt;span&gt;github.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://peepcode.com/products/backbone-js&quot;&gt;Backbone.js Tutorial&lt;/a&gt;
-&lt;span&gt;peepcode.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.joezimjs.com/javascript/introduction-to-backbone-js-part-1-models-video-tutorial/&quot;&gt;Introduction to Backbone.js&lt;/a&gt;
-&lt;span&gt;joezimjs.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://buildmobile.com/roll-your-own-framework-with-backbone-js/&quot;&gt;Roll Your Own Framework With Backbone.js&lt;/a&gt;
-&lt;span&gt;buildmobile.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://backbonefu.com/2011/08/front-end-developer-to-backbone-js-what-you-need-to-know/&quot;&gt;Front-end developer to backbone.js, what you need to know&lt;/a&gt;
-&lt;span&gt;backbonefu.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/sessions/build-a-contacts-manager-using-backbone-js/&quot;&gt;Getting to Know Backbone.js&lt;/a&gt;
-&lt;span&gt;net.tutsplus.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://documentcloud.github.com/backbone/&quot;&gt;Backbone.js&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://github.com/addyosmani/backbone-fundamentals&quot;&gt;addyosmani/backbone-fundamentals&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://peepcode.com/products/backbone-js&quot;&gt;Backbone.js Tutorial&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.joezimjs.com/javascript/introduction-to-backbone-js-part-1-models-video-tutorial/&quot;&gt;Introduction to Backbone.js&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://buildmobile.com/roll-your-own-framework-with-backbone-js/&quot;&gt;Roll Your Own Framework With Backbone.js&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://backbonefu.com/2011/08/front-end-developer-to-backbone-js-what-you-need-to-know/&quot;&gt;Front-end developer to backbone.js, what you need to know&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://net.tutsplus.com/sessions/build-a-contacts-manager-using-backbone-js/&quot;&gt;Getting to Know Backbone.js&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -611,22 +540,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/frontend/2012/05/12/twitter-front-end-devs</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/mdo&quot;&gt;Mark Otto&lt;/a&gt;
-&lt;span&gt;@mdo&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/bbodien&quot;&gt;Ben Bodien&lt;/a&gt;
-&lt;span&gt;@bbodien&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/mathias&quot;&gt;Mathias Bynens&lt;/a&gt;
-&lt;span&gt;@mathias&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/brad_frost&quot;&gt;Brad Frost&lt;/a&gt;
-&lt;span&gt;@brad_frost&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/rem&quot;&gt;Remy Sharp&lt;/a&gt;
-&lt;span&gt;@rem&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/adactio&quot;&gt;Jeremy Keith&lt;/a&gt;
-&lt;span&gt;@adactio&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/#!/paul_irish&quot;&gt;Paul Irish&lt;/a&gt;
-&lt;span&gt;@paul_irish&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/mdo&quot;&gt;Mark Otto&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/bbodien&quot;&gt;Ben Bodien&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/mathias&quot;&gt;Mathias Bynens&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/brad_frost&quot;&gt;Brad Frost&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/rem&quot;&gt;Remy Sharp&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/adactio&quot;&gt;Jeremy Keith&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;https://twitter.com/#!/paul_irish&quot;&gt;Paul Irish&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -644,22 +571,19 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/css/2012/05/12/css-modular-css</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/stubbornella/oocss&quot;&gt;oocss&lt;/a&gt;
-&lt;span&gt;github.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://smacss.com/&quot;&gt;Scalable and Modular Architecture for CSS&lt;/a&gt;
-&lt;span&gt;smacss.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2012/04/20/decoupling-html-from-css/&quot;&gt;Decoupling HTML From CSS&lt;/a&gt;
-&lt;span&gt;smashingmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/&quot;&gt;A New Front-End Methodology: BEM&lt;/a&gt;
-&lt;span&gt;smashingmagazine.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/&quot;&gt;The single responsibility principle applied to CSS&lt;/a&gt;
-&lt;span&gt;csswizardry.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://nicolasgallagher.com/about-html-semantics-front-end-architecture/&quot;&gt;About HTML semantics and front-end architecture&lt;/a&gt;
-&lt;span&gt;nicolasgallagher.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/&quot;&gt;The media object saves hundreds of lines of code&lt;/a&gt;
-&lt;span&gt;stubbornella.org&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;https://github.com/stubbornella/oocss&quot;&gt;oocss&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://smacss.com/&quot;&gt;Scalable and Modular Architecture for CSS&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2012/04/20/decoupling-html-from-css/&quot;&gt;Decoupling HTML From CSS&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/&quot;&gt;A New Front-End Methodology: BEM&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/&quot;&gt;The single responsibility principle applied to CSS&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://nicolasgallagher.com/about-html-semantics-front-end-architecture/&quot;&gt;About HTML semantics and front-end architecture&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/&quot;&gt;The media object saves hundreds of lines of code&lt;/a&gt;&lt;/h3&gt;
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;
@@ -677,22 +601,20 @@
 			<updated></updated>
 			<id>http://seven.studiomohawk.com/javascript/2012/05/12/javascript-oo</id>
 			<content type="html">
-				&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/&quot;&gt;Understanding “Prototypes” in JavaScript &lt;/a&gt;
-&lt;span&gt;yehudakatz.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://net.tutsplus.com/tutorials/javascript-ajax/prototypes-in-javascript-what-you-need-to-know/&quot;&gt;Prototypes in JavaScript&lt;/a&gt;
-&lt;span&gt;net.tutsplus.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/magazine/ff852808.aspx&quot;&gt;Prototypes and Inheritance in JavaScript&lt;/a&gt;
-&lt;span&gt;msdn.microsoft.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/&quot;&gt;Object-orientation and inheritance in JavaScript: a comprehensive explanation&lt;/a&gt;
-&lt;span&gt;manuel.kiessling.net&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.adobe.com/devnet/html5/articles/javascript-object-creation.html&quot;&gt;JavaScript object creation, Learning to live without “new”&lt;/a&gt;
-&lt;span&gt;adobe.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://beardedocto.tumblr.com/post/22380807033/js-inheritance-in-15mins-or-less&quot;&gt;JS Inheritance in 15mins or Less&lt;/a&gt;
-&lt;span&gt;beardedocto.tumblr.com&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://beardedocto.tumblr.com/post/21920818233/oo-js-in-15mins-or-less&quot;&gt;OO JS in 15mins or Less&lt;/a&gt;
-&lt;span&gt;beardedocto.tumblr.com&lt;/span&gt;&lt;/li&gt;
-&lt;/ol&gt;
+				&lt;h3&gt;&lt;a href=&quot;http://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/&quot;&gt;Understanding “Prototypes” in JavaScript &lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://net.tutsplus.com/tutorials/javascript-ajax/prototypes-in-javascript-what-you-need-to-know/&quot;&gt;Prototypes in JavaScript&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/magazine/ff852808.aspx&quot;&gt;Prototypes and Inheritance in JavaScript&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://manuel.kiessling.net/2012/03/23/object-orientation-and-inheritance-in-javascript-a-comprehensive-explanation/&quot;&gt;Object-orientation and inheritance in JavaScript: a comprehensive explanation&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://www.adobe.com/devnet/html5/articles/javascript-object-creation.html&quot;&gt;JavaScript object creation, Learning to live without “new”&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://beardedocto.tumblr.com/post/22380807033/js-inheritance-in-15mins-or-less&quot;&gt;JS Inheritance in 15mins or Less&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3&gt;&lt;a href=&quot;http://beardedocto.tumblr.com/post/21920818233/oo-js-in-15mins-or-less&quot;&gt;OO JS in 15mins or Less&lt;/a&gt;&lt;/h3&gt;
+
 
 				&lt;hr /&gt;
 				&lt;h5&gt;Elsewhere&lt;/h5&gt;

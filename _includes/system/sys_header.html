@@ -7,17 +7,24 @@
   {% case page.layout %}
   {% when 'home' %}
   <title itemprop="name" property="og:title" content="{{ site.sitename }} | {{ site.tagline }}">{{ site.sitename }} | {{ site.tagline }}</title>
-  <meta itemprop="description" name="description" property="og:description" content="{{ site.desc }}">
+	<meta itemprop="description" name="description" property="og:description" content="{{ site.desc }}">
+	<meta property="og:type" content="blog">
+	<meta property="og:url" content="{{ site.url }}">
+
   {% when 'post' %}
-  <title itemprop="name" content="{{ page.title }} | {{ site.sitename }}">{{ page.title }} | {{ site.sitename }} | {{ site.tagline }}</title>
+	<title itemprop="name" content="{{ page.title }} | {{ site.sitename }}">{{ page.title }} | {{ site.sitename }} | {{ site.tagline }}</title>
+	<meta property="og:title" content="{{ page.title }} | {{ site.sitename }}">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="{{ site.url }}/{{ page.url }}">
   <meta itemprop="description" name="description" property="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
   {% else %}
   <title itemprop="name" content="{{ page.title }} | {{ site.sitename }}">{{ page.title }} | {{ site.sitename }} | {{ site.tagline }}</title>
-  <meta itemprop="description" name="description" property="og:description" content="{{ page.desctiption }}">
+	<meta property="og:title" content="{{ page.title }}">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="{{ site.url }}/{{ page.url }}">
+	<meta itemprop="description" name="description" property="og:description" content="{{ page.desctiption }}">
   {% endcase %}
-  <meta property="og:type" content="blog">
-  <meta property="og:url" content="{{ site.url }}">
-  <meta property="og:image" content="{{ site.url }}/inazuma-icon-200.png">
+  <meta property="og:image" content="{{ site.url }}/fb-icon-200.png">
   <meta property="og:site_name" content="{{ site.sitename }} | {{ site.tagline }}">
 
   <meta name="viewport" content="width=device-width">

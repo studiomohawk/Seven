@@ -1,18 +1,3 @@
-(function(d, s) {
-	var js, fjs = d.getElementsByTagName(s)[0],
-		load = function(url, id) {
-			if (d.getElementById(id)) {
-				return;
-			}
-			js = d.createElement(s);
-			js.src = url;
-			js.id = id;
-			fjs.parentNode.insertBefore(js, fjs);
-		};
-	load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk');
-	load('https://apis.google.com/js/plusone.js', 'gplus1js');
-	load('//platform.twitter.com/widgets.js', 'tweetjs');
-}(document, 'script'));
 (function(doc) {
 	var addEvent = 'addEventListener',
 		type = 'gesturestart',
@@ -30,6 +15,7 @@
 		doc[addEvent](type, fix, true);
 	}
 }(document));
+
 (function(win) {
 	var doc = win.document;
 	// If there's a hash, or addEventListener is undefined, stop here
@@ -88,3 +74,21 @@
 
 // END
 })();
+
+// Get Domain from URL
+
+(function($) {
+
+var $page = $('#page');
+var $h3 = $page.find('.the-article').find('h3');
+var $link = $h3.find('a');
+var len = $link.length;
+var url;
+
+$link.filter(function(){
+	url = this.hostname;
+	$(this).after('<a href="http://' + url + '" class="host milli">' + url + '</a>');
+});
+
+// END
+})(jQuery);
